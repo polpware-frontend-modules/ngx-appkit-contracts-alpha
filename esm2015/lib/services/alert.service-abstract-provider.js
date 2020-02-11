@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/services/alert.service-abstract-provider.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { Injectable } from '@angular/core';
+import { ServiceProviderBase } from './service-provider-base';
+/**
+ * @abstract
+ */
+export class AlertServiceAbstractProvider extends ServiceProviderBase {
+}
+AlertServiceAbstractProvider.decorators = [
+    { type: Injectable }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWxlcnQuc2VydmljZS1hYnN0cmFjdC1wcm92aWRlci5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0Bwb2xwd2FyZS9uZ3gtYXBwa2l0LWNvbnRyYWN0cy1hbHBoYS8iLCJzb3VyY2VzIjpbImxpYi9zZXJ2aWNlcy9hbGVydC5zZXJ2aWNlLWFic3RyYWN0LXByb3ZpZGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUEsT0FBTyxFQUFFLFVBQVUsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUMzQyxPQUFPLEVBQUUsbUJBQW1CLEVBQUUsTUFBTSx5QkFBeUIsQ0FBQzs7OztBQUk5RCxNQUFNLE9BQWdCLDRCQUNsQixTQUFRLG1CQUEwQzs7O1lBRnJELFVBQVUiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBJbmplY3RhYmxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBTZXJ2aWNlUHJvdmlkZXJCYXNlIH0gZnJvbSAnLi9zZXJ2aWNlLXByb3ZpZGVyLWJhc2UnO1xuaW1wb3J0IHsgSUFsZXJ0U2VydmljZUNvbnRyYWN0IH0gZnJvbSAnLi4vY29udHJhY3RzL2FsZXJ0LnNlcnZpY2UtY29udHJhY3QnO1xuXG5ASW5qZWN0YWJsZSgpXG5leHBvcnQgYWJzdHJhY3QgY2xhc3MgQWxlcnRTZXJ2aWNlQWJzdHJhY3RQcm92aWRlclxuICAgIGV4dGVuZHMgU2VydmljZVByb3ZpZGVyQmFzZTxJQWxlcnRTZXJ2aWNlQ29udHJhY3Q+IHtcbn1cblxuIl19

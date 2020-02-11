@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/services/theme-manager.abstract-provider.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { Injectable } from '@angular/core';
+import { ServiceProviderBase } from './service-provider-base';
+/**
+ * @abstract
+ */
+export class ThemeManagerAbstractProvider extends ServiceProviderBase {
+}
+ThemeManagerAbstractProvider.decorators = [
+    { type: Injectable }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGhlbWUtbWFuYWdlci5hYnN0cmFjdC1wcm92aWRlci5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0Bwb2xwd2FyZS9uZ3gtYXBwa2l0LWNvbnRyYWN0cy1hbHBoYS8iLCJzb3VyY2VzIjpbImxpYi9zZXJ2aWNlcy90aGVtZS1tYW5hZ2VyLmFic3RyYWN0LXByb3ZpZGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUEsT0FBTyxFQUFFLFVBQVUsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUMzQyxPQUFPLEVBQUUsbUJBQW1CLEVBQUUsTUFBTSx5QkFBeUIsQ0FBQzs7OztBQUk5RCxNQUFNLE9BQWdCLDRCQUNsQixTQUFRLG1CQUEwQzs7O1lBRnJELFVBQVUiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBJbmplY3RhYmxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBTZXJ2aWNlUHJvdmlkZXJCYXNlIH0gZnJvbSAnLi9zZXJ2aWNlLXByb3ZpZGVyLWJhc2UnO1xuaW1wb3J0IHsgSVRoZW1lTWFuYWdlckNvbnRyYWN0IH0gZnJvbSAnLi4vY29udHJhY3RzL3RoZW1lLW1hbmFnZXIuY29udHJhY3QnO1xuXG5ASW5qZWN0YWJsZSgpXG5leHBvcnQgYWJzdHJhY3QgY2xhc3MgVGhlbWVNYW5hZ2VyQWJzdHJhY3RQcm92aWRlclxuICAgIGV4dGVuZHMgU2VydmljZVByb3ZpZGVyQmFzZTxJVGhlbWVNYW5hZ2VyQ29udHJhY3Q+IHtcbn1cbiJdfQ==
