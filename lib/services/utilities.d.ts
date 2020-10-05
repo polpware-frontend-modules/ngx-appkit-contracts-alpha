@@ -1,4 +1,5 @@
 import { HttpResponseBase, HttpResponse } from '@angular/common/http';
+import * as i0 from "@angular/core";
 export declare class Utilities {
     static readonly captionAndMessageSeparator = ":";
     static readonly noNetworkMessageCaption = "No Network";
@@ -56,4 +57,6 @@ export declare class Utilities {
     static convertToAbsoluteUrl(url: string): string;
     static removeNulls(obj: any): any;
     static debounce(func: (...args: any[]) => any, wait: number, immediate?: boolean): () => void;
+    static ɵfac: i0.ɵɵFactoryDef<Utilities, never>;
+    static ɵprov: i0.ɵɵInjectableDef<Utilities>;
 }

@@ -201,185 +201,8 @@
         return (mod && mod.__esModule) ? mod : { default: mod };
     }
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/contracts/alert.service-contract.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    /**
-     * @record
-     */
-    function IAlertServiceContract() { }
-    if (false) {
-        /**
-         * @param {?} message
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showDialog = function (message) { };
-        /**
-         * @param {?} message
-         * @param {?} type
-         * @param {?} okCallback
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showDialog = function (message, type, okCallback) { };
-        /**
-         * @param {?} message
-         * @param {?} type
-         * @param {?=} okCallback
-         * @param {?=} cancelCallback
-         * @param {?=} okLabel
-         * @param {?=} cancelLabel
-         * @param {?=} defaultValue
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showDialog = function (message, type, okCallback, cancelCallback, okLabel, cancelLabel, defaultValue) { };
-        /**
-         * @param {?} message
-         * @param {?=} type
-         * @param {?=} okCallback
-         * @param {?=} cancelCallback
-         * @param {?=} okLabel
-         * @param {?=} cancelLabel
-         * @param {?=} defaultValue
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showDialog = function (message, type, okCallback, cancelCallback, okLabel, cancelLabel, defaultValue) { };
-        /**
-         * @param {?} summary
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showMessage = function (summary) { };
-        /**
-         * @param {?} summary
-         * @param {?} detail
-         * @param {?} severity
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showMessage = function (summary, detail, severity) { };
-        /**
-         * @param {?} summaryAndDetails
-         * @param {?} summaryAndDetailsSeparator
-         * @param {?} severity
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showMessage = function (summaryAndDetails, summaryAndDetailsSeparator, severity) { };
-        /**
-         * @param {?} response
-         * @param {?} ignoreValue_useNull
-         * @param {?} severity
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showMessage = function (response, ignoreValue_useNull, severity) { };
-        /**
-         * @param {?} data
-         * @param {?=} separatorOrDetail
-         * @param {?=} severity
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showMessage = function (data, separatorOrDetail, severity) { };
-        /**
-         * @param {?} summary
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showStickyMessage = function (summary) { };
-        /**
-         * @param {?} summary
-         * @param {?} detail
-         * @param {?} severity
-         * @param {?=} error
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showStickyMessage = function (summary, detail, severity, error) { };
-        /**
-         * @param {?} summary
-         * @param {?} detail
-         * @param {?} severity
-         * @param {?=} error
-         * @param {?=} onRemove
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showStickyMessage = function (summary, detail, severity, error, onRemove) { };
-        /**
-         * @param {?} summaryAndDetails
-         * @param {?} summaryAndDetailsSeparator
-         * @param {?} severity
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showStickyMessage = function (summaryAndDetails, summaryAndDetailsSeparator, severity) { };
-        /**
-         * @param {?} response
-         * @param {?} ignoreValue_useNull
-         * @param {?} severity
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showStickyMessage = function (response, ignoreValue_useNull, severity) { };
-        /**
-         * @param {?} data
-         * @param {?=} separatorOrDetail
-         * @param {?=} severity
-         * @param {?=} error
-         * @param {?=} onRemove
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.showStickyMessage = function (data, separatorOrDetail, severity, error, onRemove) { };
-        /**
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.resetStickyMessage = function () { };
-        /**
-         * @param {?} message
-         * @param {?} caption
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.startLoadingMessage = function (message, caption) { };
-        /**
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.stopLoadingMessage = function () { };
-        /**
-         * @param {?} msg
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.logDebug = function (msg) { };
-        /**
-         * @param {?} msg
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.logError = function (msg) { };
-        /**
-         * @param {?} msg
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.logInfo = function (msg) { };
-        /**
-         * @param {?} msg
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.logMessage = function (msg) { };
-        /**
-         * @param {?} msg
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.logTrace = function (msg) { };
-        /**
-         * @param {?} msg
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.logWarning = function (msg) { };
-        /**
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.getDialogEvent = function () { };
-        /**
-         * @return {?}
-         */
-        IAlertServiceContract.prototype.getMessageEvent = function () { };
-    }
     // ******************** Dialog ********************//
-    var   
-    // ******************** Dialog ********************//
-    AlertDialog = /** @class */ (function () {
+    var AlertDialog = /** @class */ (function () {
         function AlertDialog(message, type, okCallback, cancelCallback, defaultValue, okLabel, cancelLabel) {
             this.message = message;
             this.type = type;
@@ -391,37 +214,15 @@
         }
         return AlertDialog;
     }());
-    if (false) {
-        /** @type {?} */
-        AlertDialog.prototype.message;
-        /** @type {?} */
-        AlertDialog.prototype.type;
-        /** @type {?} */
-        AlertDialog.prototype.okCallback;
-        /** @type {?} */
-        AlertDialog.prototype.cancelCallback;
-        /** @type {?} */
-        AlertDialog.prototype.defaultValue;
-        /** @type {?} */
-        AlertDialog.prototype.okLabel;
-        /** @type {?} */
-        AlertDialog.prototype.cancelLabel;
-    }
-    /** @enum {number} */
-    var DialogType = {
-        alert: 0,
-        confirm: 1,
-        prompt: 2,
-    };
-    DialogType[DialogType.alert] = 'alert';
-    DialogType[DialogType.confirm] = 'confirm';
-    DialogType[DialogType.prompt] = 'prompt';
+
+    (function (DialogType) {
+        DialogType[DialogType["alert"] = 0] = "alert";
+        DialogType[DialogType["confirm"] = 1] = "confirm";
+        DialogType[DialogType["prompt"] = 2] = "prompt";
+    })(exports.DialogType || (exports.DialogType = {}));
     // ******************** End ********************//
     // ******************** Growls ********************//
-    var   
-    // ******************** End ********************//
-    // ******************** Growls ********************//
-    AlertCommand = /** @class */ (function () {
+    var AlertCommand = /** @class */ (function () {
         function AlertCommand(operation, message, onRemove) {
             this.operation = operation;
             this.message = message;
@@ -429,14 +230,6 @@
         }
         return AlertCommand;
     }());
-    if (false) {
-        /** @type {?} */
-        AlertCommand.prototype.operation;
-        /** @type {?} */
-        AlertCommand.prototype.message;
-        /** @type {?} */
-        AlertCommand.prototype.onRemove;
-    }
     var AlertMessage = /** @class */ (function () {
         function AlertMessage(severity, summary, detail) {
             this.severity = severity;
@@ -445,336 +238,28 @@
         }
         return AlertMessage;
     }());
-    if (false) {
-        /** @type {?} */
-        AlertMessage.prototype.severity;
-        /** @type {?} */
-        AlertMessage.prototype.summary;
-        /** @type {?} */
-        AlertMessage.prototype.detail;
-    }
-    /** @enum {number} */
-    var MessageSeverity = {
-        default: 0,
-        info: 1,
-        success: 2,
-        error: 3,
-        warn: 4,
-        wait: 5,
-    };
-    MessageSeverity[MessageSeverity.default] = 'default';
-    MessageSeverity[MessageSeverity.info] = 'info';
-    MessageSeverity[MessageSeverity.success] = 'success';
-    MessageSeverity[MessageSeverity.error] = 'error';
-    MessageSeverity[MessageSeverity.warn] = 'warn';
-    MessageSeverity[MessageSeverity.wait] = 'wait';
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/contracts/translation.service-contract.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    /**
-     * @record
-     */
-    function ITranslationServiceContract() { }
-    if (false) {
-        /** @type {?} */
-        ITranslationServiceContract.prototype.languageChanged$;
-        /**
-         * @param {?} lang
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.addLanguages = function (lang) { };
-        /**
-         * @param {?} lang
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.setDefaultLanguage = function (lang) { };
-        /**
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.getDefaultLanguage = function () { };
-        /**
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.getBrowserLanguage = function () { };
-        /**
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.getCurrentLanguage = function () { };
-        /**
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.getLoadedLanguages = function () { };
-        /**
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.useBrowserLanguage = function () { };
-        /**
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.useDefaultLangage = function () { };
-        /**
-         * @param {?} language
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.changeLanguage = function (language) { };
-        /**
-         * @param {?} key
-         * @param {?=} interpolateParams
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.getTranslation = function (key, interpolateParams) { };
-        /**
-         * @param {?} key
-         * @param {?=} interpolateParams
-         * @return {?}
-         */
-        ITranslationServiceContract.prototype.getTranslationAsync = function (key, interpolateParams) { };
-    }
+    (function (MessageSeverity) {
+        MessageSeverity[MessageSeverity["default"] = 0] = "default";
+        MessageSeverity[MessageSeverity["info"] = 1] = "info";
+        MessageSeverity[MessageSeverity["success"] = 2] = "success";
+        MessageSeverity[MessageSeverity["error"] = 3] = "error";
+        MessageSeverity[MessageSeverity["warn"] = 4] = "warn";
+        MessageSeverity[MessageSeverity["wait"] = 5] = "wait";
+    })(exports.MessageSeverity || (exports.MessageSeverity = {}));
+    // ******************** End ********************//
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/models/app-theme.model.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    // =============================
-    // Email: info@ebenmonney.com
-    // www.ebenmonney.com/templates
-    // =============================
-    /**
-     * @record
-     */
-    function AppTheme() { }
-    if (false) {
-        /** @type {?} */
-        AppTheme.prototype.id;
-        /** @type {?} */
-        AppTheme.prototype.name;
-        /** @type {?} */
-        AppTheme.prototype.href;
-        /** @type {?|undefined} */
-        AppTheme.prototype.isDefault;
-        /** @type {?} */
-        AppTheme.prototype.background;
-        /** @type {?} */
-        AppTheme.prototype.color;
-        /** @type {?|undefined} */
-        AppTheme.prototype.isDark;
-    }
-
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/contracts/theme-manager.contract.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    // =============================
-    // Email: info@ebenmonney.com
-    // www.ebenmonney.com/templates
-    // =============================
-    /**
-     * @record
-     */
-    function IThemeManagerContract() { }
-    if (false) {
-        /** @type {?} */
-        IThemeManagerContract.prototype.themes;
-        /**
-         * @param {?=} theme
-         * @return {?}
-         */
-        IThemeManagerContract.prototype.installTheme = function (theme) { };
-        /**
-         * @return {?}
-         */
-        IThemeManagerContract.prototype.getDefaultTheme = function () { };
-        /**
-         * @param {?} id
-         * @return {?}
-         */
-        IThemeManagerContract.prototype.getThemeByID = function (id) { };
-    }
-
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/contracts/local-store-manager.service-contract.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    /**
-     * Provides a wrapper for accessing the web storage API and synchronizing session storage across tabs/windows.
-     * @record
-     */
-    function ILocalStoreManagerContract() { }
-    if (false) {
-        /**
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.initialiseStorageSyncListener = function () { };
-        /**
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.deinitialiseStorageSyncListener = function () { };
-        /**
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.clearAllStorage = function () { };
-        /**
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.clearAllSessionsStorage = function () { };
-        /**
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.clearInstanceSessionStorage = function () { };
-        /**
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.clearLocalStorage = function () { };
-        /**
-         * @param {?} data
-         * @param {?} key
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.saveSessionData = function (data, key) { };
-        /**
-         * @param {?} data
-         * @param {?} key
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.saveSyncedSessionData = function (data, key) { };
-        /**
-         * @param {?} data
-         * @param {?} key
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.savePermanentData = function (data, key) { };
-        /**
-         * @param {?} key
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.moveDataToSessionStorage = function (key) { };
-        /**
-         * @param {?} key
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.moveDataToSyncedSessionStorage = function (key) { };
-        /**
-         * @param {?} key
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.moveDataToPermanentStorage = function (key) { };
-        /**
-         * @param {?} key
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.exists = function (key) { };
-        /**
-         * @param {?} key
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.getData = function (key) { };
-        /**
-         * @template T
-         * @param {?} key
-         * @param {?} isDateType
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.getDataObject = function (key, isDateType) { };
-        /**
-         * @param {?} key
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.deleteData = function (key) { };
-        /**
-         * @return {?}
-         */
-        ILocalStoreManagerContract.prototype.getInitEvent = function () { };
-    }
     var StorageManagerConstants = /** @class */ (function () {
         function StorageManagerConstants() {
         }
         StorageManagerConstants.DBKEY_USER_DATA = 'user_data';
         return StorageManagerConstants;
     }());
-    if (false) {
-        /** @type {?} */
-        StorageManagerConstants.DBKEY_USER_DATA;
-    }
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/contracts/configuration.service-contract.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
     // =============================
     // Email: info@ebenmonney.com
     // www.ebenmonney.com/templates
     // =============================
-    /**
-     * @record
-     */
-    function UserConfiguration() { }
-    if (false) {
-        /** @type {?} */
-        UserConfiguration.prototype.language;
-        /** @type {?} */
-        UserConfiguration.prototype.homeUrl;
-        /** @type {?} */
-        UserConfiguration.prototype.themeId;
-        /** @type {?} */
-        UserConfiguration.prototype.showDashboardStatistics;
-        /** @type {?} */
-        UserConfiguration.prototype.showDashboardNotifications;
-        /** @type {?} */
-        UserConfiguration.prototype.showDashboardTodo;
-        /** @type {?} */
-        UserConfiguration.prototype.showDashboardBanner;
-    }
-    /**
-     * @record
-     */
-    function IConfigurationServiceContract() { }
-    if (false) {
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.language;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.themeId;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.homeUrl;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.showDashboardStatistics;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.showDashboardNotifications;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.showDashboardTodo;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.showDashboardBanner;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.baseUrl;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.tokenUrl;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.loginUrl;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.fallbackBaseUrl;
-        /** @type {?} */
-        IConfigurationServiceContract.prototype.configurationImported$;
-        /**
-         * @param {?} jsonValue
-         * @return {?}
-         */
-        IConfigurationServiceContract.prototype.import = function (jsonValue) { };
-        /**
-         * @param {?} changesOnly
-         * @return {?}
-         */
-        IConfigurationServiceContract.prototype.export = function (changesOnly) { };
-        /**
-         * @return {?}
-         */
-        IConfigurationServiceContract.prototype.clearLocalChanges = function () { };
-    }
     var ConfigurationServiceConstants = /** @class */ (function () {
         function ConfigurationServiceConstants() {
         }
@@ -789,30 +274,7 @@
         ConfigurationServiceConstants.defaultShowDashboardBanner = true;
         return ConfigurationServiceConstants;
     }());
-    if (false) {
-        /** @type {?} */
-        ConfigurationServiceConstants.appVersion;
-        /** @type {?} */
-        ConfigurationServiceConstants.defaultLanguage;
-        /** @type {?} */
-        ConfigurationServiceConstants.defaultHomeUrl;
-        /** @type {?} */
-        ConfigurationServiceConstants.defaultThemeId;
-        /** @type {?} */
-        ConfigurationServiceConstants.defaultShowDashboardStatistics;
-        /** @type {?} */
-        ConfigurationServiceConstants.defaultShowDashboardNotifications;
-        /** @type {?} */
-        ConfigurationServiceConstants.defaultShowDashboardTodo;
-        /** @type {?} */
-        ConfigurationServiceConstants.defaultShowDashboardBanner;
-    }
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/services/db-keys.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
     var DBkeys = /** @class */ (function () {
         function DBkeys() {
         }
@@ -829,67 +291,26 @@
         DBkeys.SHOW_DASHBOARD_NOTIFICATIONS = 'show_dashboard_notifications';
         DBkeys.SHOW_DASHBOARD_TODO = 'show_dashboard_todo';
         DBkeys.SHOW_DASHBOARD_BANNER = 'show_dashboard_banner';
-        DBkeys.decorators = [
-            { type: core.Injectable }
-        ];
+        /** @nocollapse */ DBkeys.ɵfac = function DBkeys_Factory(t) { return new (t || DBkeys)(); };
+        /** @nocollapse */ DBkeys.ɵprov = core.ɵɵdefineInjectable({ token: DBkeys, factory: DBkeys.ɵfac });
         return DBkeys;
     }());
-    if (false) {
-        /** @type {?} */
-        DBkeys.CURRENT_USER;
-        /** @type {?} */
-        DBkeys.USER_PERMISSIONS;
-        /** @type {?} */
-        DBkeys.ACCESS_TOKEN;
-        /** @type {?} */
-        DBkeys.REFRESH_TOKEN;
-        /** @type {?} */
-        DBkeys.TOKEN_EXPIRES_IN;
-        /** @type {?} */
-        DBkeys.REMEMBER_ME;
-        /** @type {?} */
-        DBkeys.LANGUAGE;
-        /** @type {?} */
-        DBkeys.HOME_URL;
-        /** @type {?} */
-        DBkeys.THEME_ID;
-        /** @type {?} */
-        DBkeys.SHOW_DASHBOARD_STATISTICS;
-        /** @type {?} */
-        DBkeys.SHOW_DASHBOARD_NOTIFICATIONS;
-        /** @type {?} */
-        DBkeys.SHOW_DASHBOARD_TODO;
-        /** @type {?} */
-        DBkeys.SHOW_DASHBOARD_BANNER;
-    }
+    /*@__PURE__*/ (function () { core.ɵsetClassMetadata(DBkeys, [{
+            type: core.Injectable
+        }], null, null); })();
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/services/utilities.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
     // Supress angular complication error
     // @dynamic
     var Utilities = /** @class */ (function () {
         function Utilities() {
         }
-        /**
-         * @param {?} data
-         * @return {?}
-         */
-        Utilities.getHttpResponseMessages = /**
-         * @param {?} data
-         * @return {?}
-         */
-        function (data) {
-            /** @type {?} */
+        Utilities.getHttpResponseMessages = function (data) {
             var responses = [];
             if (data instanceof http.HttpResponseBase) {
                 if (this.checkNoNetwork(data)) {
                     responses.push("" + this.noNetworkMessageCaption + this.captionAndMessageSeparator + " " + this.noNetworkMessageDetail);
                 }
                 else {
-                    /** @type {?} */
                     var responseObject = this.getResponseBody(data);
                     if (responseObject && (typeof responseObject === 'object' || responseObject instanceof Object)) {
                         for (var key in responseObject) {
@@ -903,11 +324,11 @@
                     }
                 }
                 if (!responses.length) {
-                    if (((/** @type {?} */ (data))).body) {
-                        responses.push("body: " + ((/** @type {?} */ (data))).body);
+                    if (data.body) {
+                        responses.push("body: " + data.body);
                     }
-                    if (((/** @type {?} */ (data))).error) {
-                        responses.push("error: " + ((/** @type {?} */ (data))).error);
+                    if (data.error) {
+                        responses.push("error: " + data.error);
                     }
                 }
             }
@@ -923,7 +344,6 @@
                 responses.splice(0, 0, "" + this.accessDeniedMessageCaption + this.captionAndMessageSeparator + " " + this.accessDeniedMessageDetail);
             }
             if (this.checkNotFound(data)) {
-                /** @type {?} */
                 var message = "" + this.notFoundMessageCaption + this.captionAndMessageSeparator + " " + this.notFoundMessageDetail;
                 if (data.url) {
                     message += ". " + data.url;
@@ -932,16 +352,7 @@
             }
             return responses;
         };
-        /**
-         * @param {?} data
-         * @return {?}
-         */
-        Utilities.getHttpResponseMessage = /**
-         * @param {?} data
-         * @return {?}
-         */
-        function (data) {
-            /** @type {?} */
+        Utilities.getHttpResponseMessage = function (data) {
             var httpMessage = Utilities.findHttpResponseMessage(Utilities.noNetworkMessageCaption, data) ||
                 Utilities.findHttpResponseMessage(Utilities.notFoundMessageCaption, data) ||
                 Utilities.findHttpResponseMessage('error_description', data) ||
@@ -949,32 +360,15 @@
                 Utilities.getHttpResponseMessages(data).join();
             return httpMessage;
         };
-        /**
-         * @param {?} messageToFind
-         * @param {?} data
-         * @param {?=} seachInCaptionOnly
-         * @param {?=} includeCaptionInResult
-         * @return {?}
-         */
-        Utilities.findHttpResponseMessage = /**
-         * @param {?} messageToFind
-         * @param {?} data
-         * @param {?=} seachInCaptionOnly
-         * @param {?=} includeCaptionInResult
-         * @return {?}
-         */
-        function (messageToFind, data, seachInCaptionOnly, includeCaptionInResult) {
+        Utilities.findHttpResponseMessage = function (messageToFind, data, seachInCaptionOnly, includeCaptionInResult) {
             var e_1, _a, e_2, _b;
             if (seachInCaptionOnly === void 0) { seachInCaptionOnly = true; }
             if (includeCaptionInResult === void 0) { includeCaptionInResult = false; }
-            /** @type {?} */
             var searchString = messageToFind.toLowerCase();
-            /** @type {?} */
             var httpMessages = this.getHttpResponseMessages(data);
             try {
                 for (var httpMessages_1 = __values(httpMessages), httpMessages_1_1 = httpMessages_1.next(); !httpMessages_1_1.done; httpMessages_1_1 = httpMessages_1.next()) {
                     var message = httpMessages_1_1.value;
-                    /** @type {?} */
                     var fullMessage = Utilities.splitInTwo(message, this.captionAndMessageSeparator);
                     if (fullMessage.firstPart && fullMessage.firstPart.toLowerCase().indexOf(searchString) != -1) {
                         return includeCaptionInResult ? message : fullMessage.secondPart || fullMessage.firstPart;
@@ -997,7 +391,6 @@
                                 return message;
                             }
                             else {
-                                /** @type {?} */
                                 var fullMessage = Utilities.splitInTwo(message, this.captionAndMessageSeparator);
                                 return fullMessage.secondPart || fullMessage.firstPart;
                             }
@@ -1014,15 +407,7 @@
             }
             return null;
         };
-        /**
-         * @param {?} response
-         * @return {?}
-         */
-        Utilities.getResponseBody = /**
-         * @param {?} response
-         * @return {?}
-         */
-        function (response) {
+        Utilities.getResponseBody = function (response) {
             if (response instanceof http.HttpResponse) {
                 return response.body;
             }
@@ -1030,85 +415,40 @@
                 return response.error || response.message || response.statusText;
             }
         };
-        /**
-         * @param {?} response
-         * @return {?}
-         */
-        Utilities.checkNoNetwork = /**
-         * @param {?} response
-         * @return {?}
-         */
-        function (response) {
+        Utilities.checkNoNetwork = function (response) {
             if (response instanceof http.HttpResponseBase) {
                 return response.status == 0;
             }
             return false;
         };
-        /**
-         * @param {?} response
-         * @return {?}
-         */
-        Utilities.checkAccessDenied = /**
-         * @param {?} response
-         * @return {?}
-         */
-        function (response) {
+        Utilities.checkAccessDenied = function (response) {
             if (response instanceof http.HttpResponseBase) {
                 return response.status == 403;
             }
             return false;
         };
-        /**
-         * @param {?} response
-         * @return {?}
-         */
-        Utilities.checkNotFound = /**
-         * @param {?} response
-         * @return {?}
-         */
-        function (response) {
+        Utilities.checkNotFound = function (response) {
             if (response instanceof http.HttpResponseBase) {
                 return response.status == 404;
             }
             return false;
         };
-        /**
-         * @param {?} url
-         * @param {?=} base
-         * @return {?}
-         */
-        Utilities.checkIsLocalHost = /**
-         * @param {?} url
-         * @param {?=} base
-         * @return {?}
-         */
-        function (url, base) {
+        Utilities.checkIsLocalHost = function (url, base) {
             if (url) {
-                /** @type {?} */
                 var location_1 = new URL(url, base);
                 return location_1.hostname === 'localhost' || location_1.hostname === '127.0.0.1';
             }
             return false;
         };
-        /**
-         * @param {?} paramString
-         * @return {?}
-         */
-        Utilities.getQueryParamsFromString = /**
-         * @param {?} paramString
-         * @return {?}
-         */
-        function (paramString) {
+        Utilities.getQueryParamsFromString = function (paramString) {
             var e_3, _a;
             if (!paramString) {
                 return null;
             }
-            /** @type {?} */
             var params = {};
             try {
                 for (var _b = __values(paramString.split('&')), _c = _b.next(); !_c.done; _c = _b.next()) {
                     var param = _c.value;
-                    /** @type {?} */
                     var keyValue = Utilities.splitInTwo(param, '=');
                     params[keyValue.firstPart] = keyValue.secondPart;
                 }
@@ -1122,38 +462,16 @@
             }
             return params;
         };
-        /**
-         * @param {?} text
-         * @param {?} separator
-         * @return {?}
-         */
-        Utilities.splitInTwo = /**
-         * @param {?} text
-         * @param {?} separator
-         * @return {?}
-         */
-        function (text, separator) {
-            /** @type {?} */
+        Utilities.splitInTwo = function (text, separator) {
             var separatorIndex = text.indexOf(separator);
             if (separatorIndex == -1) {
                 return { firstPart: text, secondPart: null };
             }
-            /** @type {?} */
             var part1 = text.substr(0, separatorIndex).trim();
-            /** @type {?} */
             var part2 = text.substr(separatorIndex + 1).trim();
             return { firstPart: part1, secondPart: part2 };
         };
-        /**
-         * @param {?} object
-         * @return {?}
-         */
-        Utilities.safeStringify = /**
-         * @param {?} object
-         * @return {?}
-         */
-        function (object) {
-            /** @type {?} */
+        Utilities.safeStringify = function (object) {
             var result;
             try {
                 result = JSON.stringify(object);
@@ -1161,7 +479,6 @@
             }
             catch (error) {
             }
-            /** @type {?} */
             var simpleObject = {};
             for (var prop in object) {
                 if (!object.hasOwnProperty(prop)) {
@@ -1178,15 +495,7 @@
             result = '[***Sanitized Object***]: ' + JSON.stringify(simpleObject);
             return result;
         };
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        Utilities.JsonTryParse = /**
-         * @param {?} value
-         * @return {?}
-         */
-        function (value) {
+        Utilities.JsonTryParse = function (value) {
             try {
                 return JSON.parse(value);
             }
@@ -1197,15 +506,7 @@
                 return value;
             }
         };
-        /**
-         * @param {?} obj
-         * @return {?}
-         */
-        Utilities.TestIsObjectEmpty = /**
-         * @param {?} obj
-         * @return {?}
-         */
-        function (obj) {
+        Utilities.TestIsObjectEmpty = function (obj) {
             for (var prop in obj) {
                 if (obj.hasOwnProperty(prop)) {
                     return false;
@@ -1213,38 +514,14 @@
             }
             return true;
         };
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        Utilities.TestIsUndefined = /**
-         * @param {?} value
-         * @return {?}
-         */
-        function (value) {
+        Utilities.TestIsUndefined = function (value) {
             return typeof value === 'undefined';
             // return value === undefined;
         };
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        Utilities.TestIsString = /**
-         * @param {?} value
-         * @return {?}
-         */
-        function (value) {
+        Utilities.TestIsString = function (value) {
             return typeof value === 'string' || value instanceof String;
         };
-        /**
-         * @param {?} text
-         * @return {?}
-         */
-        Utilities.capitalizeFirstLetter = /**
-         * @param {?} text
-         * @return {?}
-         */
-        function (text) {
+        Utilities.capitalizeFirstLetter = function (text) {
             if (text) {
                 return text.charAt(0).toUpperCase() + text.slice(1);
             }
@@ -1252,34 +529,13 @@
                 return text;
             }
         };
-        /**
-         * @param {?} text
-         * @return {?}
-         */
-        Utilities.toTitleCase = /**
-         * @param {?} text
-         * @return {?}
-         */
-        function (text) {
-            return text.replace(/\w\S*/g, (/**
-             * @param {?} subString
-             * @return {?}
-             */
-            function (subString) {
+        Utilities.toTitleCase = function (text) {
+            return text.replace(/\w\S*/g, function (subString) {
                 return subString.charAt(0).toUpperCase() + subString.substr(1).toLowerCase();
-            }));
+            });
         };
-        /**
-         * @param {?} items
-         * @return {?}
-         */
-        Utilities.toLowerCase = /**
-         * @param {?} items
-         * @return {?}
-         */
-        function (items) {
+        Utilities.toLowerCase = function (items) {
             if (items instanceof Array) {
-                /** @type {?} */
                 var loweredRoles = [];
                 for (var i = 0; i < items.length; i++) {
                     loweredRoles[i] = items[i].toLowerCase();
@@ -1290,36 +546,13 @@
                 return items.toLowerCase();
             }
         };
-        /**
-         * @return {?}
-         */
-        Utilities.uniqueId = /**
-         * @return {?}
-         */
-        function () {
+        Utilities.uniqueId = function () {
             return this.randomNumber(1000000, 9000000).toString();
         };
-        /**
-         * @param {?} min
-         * @param {?} max
-         * @return {?}
-         */
-        Utilities.randomNumber = /**
-         * @param {?} min
-         * @param {?} max
-         * @return {?}
-         */
-        function (min, max) {
+        Utilities.randomNumber = function (min, max) {
             return Math.floor(Math.random() * (max - min + 1) + min);
         };
-        /**
-         * @return {?}
-         */
-        Utilities.baseUrl = /**
-         * @return {?}
-         */
-        function () {
-            /** @type {?} */
+        Utilities.baseUrl = function () {
             var base = '';
             if (window.location.origin) {
                 base = window.location.origin;
@@ -1329,29 +562,14 @@
             }
             return base.replace(/\/$/, '');
         };
-        /**
-         * @param {?} date
-         * @return {?}
-         */
-        Utilities.printDateOnly = /**
-         * @param {?} date
-         * @return {?}
-         */
-        function (date) {
+        Utilities.printDateOnly = function (date) {
             date = new Date(date);
-            /** @type {?} */
             var dayNames = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
-            /** @type {?} */
             var monthNames = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-            /** @type {?} */
             var dayOfWeek = date.getDay();
-            /** @type {?} */
             var dayOfMonth = date.getDate();
-            /** @type {?} */
             var sup = '';
-            /** @type {?} */
             var month = date.getMonth();
-            /** @type {?} */
             var year = date.getFullYear();
             if (dayOfMonth == 1 || dayOfMonth == 21 || dayOfMonth == 31) {
                 sup = 'st';
@@ -1365,25 +583,13 @@
             else {
                 sup = 'th';
             }
-            /** @type {?} */
             var dateString = dayNames[dayOfWeek] + ', ' + dayOfMonth + sup + ' ' + monthNames[month] + ' ' + year;
             return dateString;
         };
-        /**
-         * @param {?} date
-         * @return {?}
-         */
-        Utilities.printTimeOnly = /**
-         * @param {?} date
-         * @return {?}
-         */
-        function (date) {
+        Utilities.printTimeOnly = function (date) {
             date = new Date(date);
-            /** @type {?} */
             var period = '';
-            /** @type {?} */
             var minute = date.getMinutes().toString();
-            /** @type {?} */
             var hour = date.getHours();
             period = hour < 12 ? 'AM' : 'PM';
             if (hour == 0) {
@@ -1395,43 +601,19 @@
             if (minute.length == 1) {
                 minute = '0' + minute;
             }
-            /** @type {?} */
             var timeString = hour + ':' + minute + ' ' + period;
             return timeString;
         };
-        /**
-         * @param {?} date
-         * @param {?=} separator
-         * @return {?}
-         */
-        Utilities.printDate = /**
-         * @param {?} date
-         * @param {?=} separator
-         * @return {?}
-         */
-        function (date, separator) {
+        Utilities.printDate = function (date, separator) {
             if (separator === void 0) { separator = 'at'; }
             return Utilities.printDateOnly(date) + " " + separator + " " + Utilities.printTimeOnly(date);
         };
-        /**
-         * @param {?} date
-         * @param {?=} separator
-         * @return {?}
-         */
-        Utilities.printFriendlyDate = /**
-         * @param {?} date
-         * @param {?=} separator
-         * @return {?}
-         */
-        function (date, separator) {
+        Utilities.printFriendlyDate = function (date, separator) {
             if (separator === void 0) { separator = '-'; }
-            /** @type {?} */
             var today = new Date();
             today.setHours(0, 0, 0, 0);
-            /** @type {?} */
             var yesterday = new Date(today);
             yesterday.setDate(yesterday.getDate() - 1);
-            /** @type {?} */
             var test = new Date(date.getFullYear(), date.getMonth(), date.getDate());
             if (test.toDateString() == today.toDateString()) {
                 return "Today " + separator + " " + Utilities.printTimeOnly(date);
@@ -1443,26 +625,11 @@
                 return Utilities.printDate(date, separator);
             }
         };
-        /**
-         * @param {?} date
-         * @param {?=} separator
-         * @param {?=} dateTimeSeparator
-         * @return {?}
-         */
-        Utilities.printShortDate = /**
-         * @param {?} date
-         * @param {?=} separator
-         * @param {?=} dateTimeSeparator
-         * @return {?}
-         */
-        function (date, separator, dateTimeSeparator) {
+        Utilities.printShortDate = function (date, separator, dateTimeSeparator) {
             if (separator === void 0) { separator = '/'; }
             if (dateTimeSeparator === void 0) { dateTimeSeparator = '-'; }
-            /** @type {?} */
             var day = date.getDate().toString();
-            /** @type {?} */
             var month = (date.getMonth() + 1).toString();
-            /** @type {?} */
             var year = date.getFullYear();
             if (day.length == 1) {
                 day = '0' + day;
@@ -1472,15 +639,7 @@
             }
             return "" + month + separator + day + separator + year + " " + dateTimeSeparator + " " + Utilities.printTimeOnly(date);
         };
-        /**
-         * @param {?} date
-         * @return {?}
-         */
-        Utilities.parseDate = /**
-         * @param {?} date
-         * @return {?}
-         */
-        function (date) {
+        Utilities.parseDate = function (date) {
             if (date) {
                 if (date instanceof Date) {
                     return date;
@@ -1492,43 +651,26 @@
                     return new Date(date);
                 }
                 if (typeof date === 'number' || date instanceof Number) {
-                    return new Date((/** @type {?} */ (date)));
+                    return new Date(date);
                 }
             }
         };
-        /**
-         * @param {?} start
-         * @param {?} end
-         * @return {?}
-         */
-        Utilities.printDuration = /**
-         * @param {?} start
-         * @param {?} end
-         * @return {?}
-         */
-        function (start, end) {
+        Utilities.printDuration = function (start, end) {
             start = new Date(start);
             end = new Date(end);
             // get total seconds between the times
-            /** @type {?} */
             var delta = Math.abs(start.valueOf() - end.valueOf()) / 1000;
             // calculate (and subtract) whole days
-            /** @type {?} */
             var days = Math.floor(delta / 86400);
             delta -= days * 86400;
             // calculate (and subtract) whole hours
-            /** @type {?} */
             var hours = Math.floor(delta / 3600) % 24;
             delta -= hours * 3600;
             // calculate (and subtract) whole minutes
-            /** @type {?} */
             var minutes = Math.floor(delta / 60) % 60;
             delta -= minutes * 60;
             // what's left is seconds
-            /** @type {?} */
-            var seconds = delta % 60;
-            // in theory the modulus is not required
-            /** @type {?} */
+            var seconds = delta % 60; // in theory the modulus is not required
             var printedDays = '';
             if (days) {
                 printedDays = days + " days";
@@ -1547,20 +689,9 @@
             }
             return printedDays;
         };
-        /**
-         * @param {?} birthDate
-         * @param {?} otherDate
-         * @return {?}
-         */
-        Utilities.getAge = /**
-         * @param {?} birthDate
-         * @param {?} otherDate
-         * @return {?}
-         */
-        function (birthDate, otherDate) {
+        Utilities.getAge = function (birthDate, otherDate) {
             birthDate = new Date(birthDate);
             otherDate = new Date(otherDate);
-            /** @type {?} */
             var years = (otherDate.getFullYear() - birthDate.getFullYear());
             if (otherDate.getMonth() < birthDate.getMonth() ||
                 otherDate.getMonth() == birthDate.getMonth() && otherDate.getDate() < birthDate.getDate()) {
@@ -1568,19 +699,7 @@
             }
             return years;
         };
-        /**
-         * @param {?} searchTerm
-         * @param {?} caseSensitive
-         * @param {...?} values
-         * @return {?}
-         */
-        Utilities.searchArray = /**
-         * @param {?} searchTerm
-         * @param {?} caseSensitive
-         * @param {...?} values
-         * @return {?}
-         */
-        function (searchTerm, caseSensitive) {
+        Utilities.searchArray = function (searchTerm, caseSensitive) {
             var values = [];
             for (var _i = 2; _i < arguments.length; _i++) {
                 values[_i - 2] = arguments[_i];
@@ -1588,9 +707,7 @@
             if (!searchTerm) {
                 return true;
             }
-            /** @type {?} */
             var filter = searchTerm.trim();
-            /** @type {?} */
             var data = values.join();
             if (!caseSensitive) {
                 filter = filter.toLowerCase();
@@ -1598,19 +715,7 @@
             }
             return data.indexOf(filter) != -1;
         };
-        /**
-         * @param {?} array
-         * @param {?} oldIndex
-         * @param {?} newIndex
-         * @return {?}
-         */
-        Utilities.moveArrayItem = /**
-         * @param {?} array
-         * @param {?} oldIndex
-         * @param {?} newIndex
-         * @return {?}
-         */
-        function (array, oldIndex, newIndex) {
+        Utilities.moveArrayItem = function (array, oldIndex, newIndex) {
             if (oldIndex < 0) {
                 return;
             }
@@ -1618,7 +723,6 @@
                 newIndex += array.length;
             }
             if (newIndex >= array.length) {
-                /** @type {?} */
                 var k = newIndex - array.length;
                 while ((k--) + 1) {
                     array.push(undefined);
@@ -1626,15 +730,7 @@
             }
             array.splice(newIndex, 0, array.splice(oldIndex, 1)[0]);
         };
-        /**
-         * @param {?} text
-         * @return {?}
-         */
-        Utilities.expandCamelCase = /**
-         * @param {?} text
-         * @return {?}
-         */
-        function (text) {
+        Utilities.expandCamelCase = function (text) {
             if (!text) {
                 return text;
             }
@@ -1642,40 +738,14 @@
                 .replace(/([A-Z][A-Z]+)/g, ' $1')
                 .replace(/([^A-Za-z ]+)/g, ' $1');
         };
-        /**
-         * @param {?} url
-         * @return {?}
-         */
-        Utilities.testIsAbsoluteUrl = /**
-         * @param {?} url
-         * @return {?}
-         */
-        function (url) {
-            /** @type {?} */
+        Utilities.testIsAbsoluteUrl = function (url) {
             var r = new RegExp('^(?:[a-z]+:)?//', 'i');
             return r.test(url);
         };
-        /**
-         * @param {?} url
-         * @return {?}
-         */
-        Utilities.convertToAbsoluteUrl = /**
-         * @param {?} url
-         * @return {?}
-         */
-        function (url) {
+        Utilities.convertToAbsoluteUrl = function (url) {
             return Utilities.testIsAbsoluteUrl(url) ? url : '//' + url;
         };
-        /**
-         * @param {?} obj
-         * @return {?}
-         */
-        Utilities.removeNulls = /**
-         * @param {?} obj
-         * @return {?}
-         */
-        function (obj) {
-            /** @type {?} */
+        Utilities.removeNulls = function (obj) {
             var isArray = obj instanceof Array;
             for (var k in obj) {
                 if (obj[k] === null) {
@@ -1690,47 +760,24 @@
             }
             return obj;
         };
-        /**
-         * @param {?} func
-         * @param {?} wait
-         * @param {?=} immediate
-         * @return {?}
-         */
-        Utilities.debounce = /**
-         * @param {?} func
-         * @param {?} wait
-         * @param {?=} immediate
-         * @return {?}
-         */
-        function (func, wait, immediate) {
-            /** @type {?} */
+        Utilities.debounce = function (func, wait, immediate) {
             var timeout;
-            return (/**
-             * @return {?}
-             */
-            function () {
-                /** @type {?} */
+            return function () {
                 var context = this;
-                /** @type {?} */
                 var args_ = arguments;
-                /** @type {?} */
-                var later = (/**
-                 * @return {?}
-                 */
-                function () {
+                var later = function () {
                     timeout = null;
                     if (!immediate) {
                         func.apply(context, args_);
                     }
-                });
-                /** @type {?} */
+                };
                 var callNow = immediate && !timeout;
                 clearTimeout(timeout);
                 timeout = setTimeout(later, wait);
                 if (callNow) {
                     func.apply(context, args_);
                 }
-            });
+            };
         };
         Utilities.captionAndMessageSeparator = ':';
         Utilities.noNetworkMessageCaption = 'No Network';
@@ -1740,27 +787,13 @@
         Utilities.notFoundMessageCaption = 'Not Found';
         Utilities.notFoundMessageDetail = 'The target resource cannot be found';
         Utilities.cookies = {
-            getItem: (/**
-             * @param {?} sKey
-             * @return {?}
-             */
-            function (sKey) {
+            getItem: function (sKey) {
                 return decodeURIComponent(document.cookie.replace(new RegExp('(?:(?:^|.*;)\\s*' + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, '\\$&') + '\\s*\\=\\s*([^;]*).*$)|^.*$'), '$1')) || null;
-            }),
-            setItem: (/**
-             * @param {?} sKey
-             * @param {?} sValue
-             * @param {?} vEnd
-             * @param {?} sPath
-             * @param {?} sDomain
-             * @param {?} bSecure
-             * @return {?}
-             */
-            function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
+            },
+            setItem: function (sKey, sValue, vEnd, sPath, sDomain, bSecure) {
                 if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) {
                     return false;
                 }
-                /** @type {?} */
                 var sExpires = '';
                 if (vEnd) {
                     switch (vEnd.constructor) {
@@ -1777,223 +810,141 @@
                 }
                 document.cookie = encodeURIComponent(sKey) + '=' + encodeURIComponent(sValue) + sExpires + (sDomain ? '; domain=' + sDomain : '') + (sPath ? '; path=' + sPath : '') + (bSecure ? '; secure' : '');
                 return true;
-            }),
-            removeItem: (/**
-             * @param {?} sKey
-             * @param {?} sPath
-             * @param {?} sDomain
-             * @return {?}
-             */
-            function (sKey, sPath, sDomain) {
+            },
+            removeItem: function (sKey, sPath, sDomain) {
                 if (!sKey) {
                     return false;
                 }
                 document.cookie = encodeURIComponent(sKey) + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT' + (sDomain ? '; domain=' + sDomain : '') + (sPath ? '; path=' + sPath : '');
                 return true;
-            }),
-            hasItem: (/**
-             * @param {?} sKey
-             * @return {?}
-             */
-            function (sKey) {
+            },
+            hasItem: function (sKey) {
                 return (new RegExp('(?:^|;\\s*)' + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, '\\$&') + '\\s*\\=')).test(document.cookie);
-            }),
-            keys: (/**
-             * @return {?}
-             */
-            function () {
-                /** @type {?} */
+            },
+            keys: function () {
                 var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, '').split(/\s*(?:\=[^;]*)?;\s*/);
                 for (var nIdx = 0; nIdx < aKeys.length; nIdx++) {
                     aKeys[nIdx] = decodeURIComponent(aKeys[nIdx]);
                 }
                 return aKeys;
-            })
+            }
         };
-        Utilities.decorators = [
-            { type: core.Injectable }
-        ];
+        /** @nocollapse */ Utilities.ɵfac = function Utilities_Factory(t) { return new (t || Utilities)(); };
+        /** @nocollapse */ Utilities.ɵprov = core.ɵɵdefineInjectable({ token: Utilities, factory: Utilities.ɵfac });
         return Utilities;
     }());
-    if (false) {
-        /** @type {?} */
-        Utilities.captionAndMessageSeparator;
-        /** @type {?} */
-        Utilities.noNetworkMessageCaption;
-        /** @type {?} */
-        Utilities.noNetworkMessageDetail;
-        /** @type {?} */
-        Utilities.accessDeniedMessageCaption;
-        /** @type {?} */
-        Utilities.accessDeniedMessageDetail;
-        /** @type {?} */
-        Utilities.notFoundMessageCaption;
-        /** @type {?} */
-        Utilities.notFoundMessageDetail;
-        /** @type {?} */
-        Utilities.cookies;
-    }
+    /*@__PURE__*/ (function () { core.ɵsetClassMetadata(Utilities, [{
+            type: core.Injectable
+        }], null, null); })();
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/environments/environment.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
     // This file can be replaced during build by using the `fileReplacements` array.
     // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
     // The list of file replacements can be found in `angular.json`.
-    /** @type {?} */
     var environment = {
         production: false,
         baseUrl: null,
-        // Change this to the address of your backend API if different from frontend address
         tokenUrl: null,
-        // For IdentityServer/Authorization Server API. You can set to null if same as baseUrl
         loginUrl: '/login'
     };
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/services/service-provider-base.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    /**
-     * @abstract
-     * @template T
-     */
-    var   /**
-     * @abstract
-     * @template T
-     */
-    ServiceProviderBase = /** @class */ (function () {
+    var ServiceProviderBase = /** @class */ (function () {
         function ServiceProviderBase() {
         }
         return ServiceProviderBase;
     }());
-    if (false) {
-        /**
-         * @abstract
-         * @return {?}
-         */
-        ServiceProviderBase.prototype.get = function () { };
-    }
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/services/alert.service-abstract-provider.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    /**
-     * @abstract
-     */
     var AlertServiceAbstractProvider = /** @class */ (function (_super) {
         __extends(AlertServiceAbstractProvider, _super);
         function AlertServiceAbstractProvider() {
             return _super !== null && _super.apply(this, arguments) || this;
         }
-        AlertServiceAbstractProvider.decorators = [
-            { type: core.Injectable }
-        ];
+        /** @nocollapse */ AlertServiceAbstractProvider.ɵfac = function AlertServiceAbstractProvider_Factory(t) { return ɵAlertServiceAbstractProvider_BaseFactory(t || AlertServiceAbstractProvider); };
+        /** @nocollapse */ AlertServiceAbstractProvider.ɵprov = core.ɵɵdefineInjectable({ token: AlertServiceAbstractProvider, factory: AlertServiceAbstractProvider.ɵfac });
         return AlertServiceAbstractProvider;
     }(ServiceProviderBase));
+    var ɵAlertServiceAbstractProvider_BaseFactory = core.ɵɵgetInheritedFactory(AlertServiceAbstractProvider);
+    /*@__PURE__*/ (function () { core.ɵsetClassMetadata(AlertServiceAbstractProvider, [{
+            type: core.Injectable
+        }], null, null); })();
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/services/translation.service-abstract-provider.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    /**
-     * @abstract
-     */
     var TranslationServiceAbstractProvider = /** @class */ (function (_super) {
         __extends(TranslationServiceAbstractProvider, _super);
         function TranslationServiceAbstractProvider() {
             return _super !== null && _super.apply(this, arguments) || this;
         }
-        TranslationServiceAbstractProvider.decorators = [
-            { type: core.Injectable }
-        ];
+        /** @nocollapse */ TranslationServiceAbstractProvider.ɵfac = function TranslationServiceAbstractProvider_Factory(t) { return ɵTranslationServiceAbstractProvider_BaseFactory(t || TranslationServiceAbstractProvider); };
+        /** @nocollapse */ TranslationServiceAbstractProvider.ɵprov = core.ɵɵdefineInjectable({ token: TranslationServiceAbstractProvider, factory: TranslationServiceAbstractProvider.ɵfac });
         return TranslationServiceAbstractProvider;
     }(ServiceProviderBase));
+    var ɵTranslationServiceAbstractProvider_BaseFactory = core.ɵɵgetInheritedFactory(TranslationServiceAbstractProvider);
+    /*@__PURE__*/ (function () { core.ɵsetClassMetadata(TranslationServiceAbstractProvider, [{
+            type: core.Injectable
+        }], null, null); })();
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/services/configuration.service-abstract-provider.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    /**
-     * @abstract
-     */
     var ConfigurationServiceAbstractProvider = /** @class */ (function (_super) {
         __extends(ConfigurationServiceAbstractProvider, _super);
         function ConfigurationServiceAbstractProvider() {
             return _super !== null && _super.apply(this, arguments) || this;
         }
-        ConfigurationServiceAbstractProvider.decorators = [
-            { type: core.Injectable }
-        ];
+        /** @nocollapse */ ConfigurationServiceAbstractProvider.ɵfac = function ConfigurationServiceAbstractProvider_Factory(t) { return ɵConfigurationServiceAbstractProvider_BaseFactory(t || ConfigurationServiceAbstractProvider); };
+        /** @nocollapse */ ConfigurationServiceAbstractProvider.ɵprov = core.ɵɵdefineInjectable({ token: ConfigurationServiceAbstractProvider, factory: ConfigurationServiceAbstractProvider.ɵfac });
         return ConfigurationServiceAbstractProvider;
     }(ServiceProviderBase));
+    var ɵConfigurationServiceAbstractProvider_BaseFactory = core.ɵɵgetInheritedFactory(ConfigurationServiceAbstractProvider);
+    /*@__PURE__*/ (function () { core.ɵsetClassMetadata(ConfigurationServiceAbstractProvider, [{
+            type: core.Injectable
+        }], null, null); })();
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/services/local-store-manager.service-abstract-provider.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    /**
-     * @abstract
-     */
     var LocalStoreManagerServiceAbstractProvider = /** @class */ (function (_super) {
         __extends(LocalStoreManagerServiceAbstractProvider, _super);
         function LocalStoreManagerServiceAbstractProvider() {
             return _super !== null && _super.apply(this, arguments) || this;
         }
-        LocalStoreManagerServiceAbstractProvider.decorators = [
-            { type: core.Injectable }
-        ];
+        /** @nocollapse */ LocalStoreManagerServiceAbstractProvider.ɵfac = function LocalStoreManagerServiceAbstractProvider_Factory(t) { return ɵLocalStoreManagerServiceAbstractProvider_BaseFactory(t || LocalStoreManagerServiceAbstractProvider); };
+        /** @nocollapse */ LocalStoreManagerServiceAbstractProvider.ɵprov = core.ɵɵdefineInjectable({ token: LocalStoreManagerServiceAbstractProvider, factory: LocalStoreManagerServiceAbstractProvider.ɵfac });
         return LocalStoreManagerServiceAbstractProvider;
     }(ServiceProviderBase));
+    var ɵLocalStoreManagerServiceAbstractProvider_BaseFactory = core.ɵɵgetInheritedFactory(LocalStoreManagerServiceAbstractProvider);
+    /*@__PURE__*/ (function () { core.ɵsetClassMetadata(LocalStoreManagerServiceAbstractProvider, [{
+            type: core.Injectable
+        }], null, null); })();
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/services/theme-manager.abstract-provider.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
-    /**
-     * @abstract
-     */
     var ThemeManagerAbstractProvider = /** @class */ (function (_super) {
         __extends(ThemeManagerAbstractProvider, _super);
         function ThemeManagerAbstractProvider() {
             return _super !== null && _super.apply(this, arguments) || this;
         }
-        ThemeManagerAbstractProvider.decorators = [
-            { type: core.Injectable }
-        ];
+        /** @nocollapse */ ThemeManagerAbstractProvider.ɵfac = function ThemeManagerAbstractProvider_Factory(t) { return ɵThemeManagerAbstractProvider_BaseFactory(t || ThemeManagerAbstractProvider); };
+        /** @nocollapse */ ThemeManagerAbstractProvider.ɵprov = core.ɵɵdefineInjectable({ token: ThemeManagerAbstractProvider, factory: ThemeManagerAbstractProvider.ɵfac });
         return ThemeManagerAbstractProvider;
     }(ServiceProviderBase));
+    var ɵThemeManagerAbstractProvider_BaseFactory = core.ɵɵgetInheritedFactory(ThemeManagerAbstractProvider);
+    /*@__PURE__*/ (function () { core.ɵsetClassMetadata(ThemeManagerAbstractProvider, [{
+            type: core.Injectable
+        }], null, null); })();
 
-    /**
-     * @fileoverview added by tsickle
-     * Generated from: lib/ngx-appkit-contracts-alpha.module.ts
-     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
     var NgxAppkitContractsAlphaModule = /** @class */ (function () {
         function NgxAppkitContractsAlphaModule() {
         }
-        NgxAppkitContractsAlphaModule.decorators = [
-            { type: core.NgModule, args: [{
-                        declarations: [],
-                        imports: [],
-                        exports: [],
-                        providers: [
-                            Utilities,
-                            DBkeys
-                        ]
-                    },] }
-        ];
+        /** @nocollapse */ NgxAppkitContractsAlphaModule.ɵmod = core.ɵɵdefineNgModule({ type: NgxAppkitContractsAlphaModule });
+        /** @nocollapse */ NgxAppkitContractsAlphaModule.ɵinj = core.ɵɵdefineInjector({ factory: function NgxAppkitContractsAlphaModule_Factory(t) { return new (t || NgxAppkitContractsAlphaModule)(); }, providers: [
+                Utilities,
+                DBkeys
+            ], imports: [[]] });
         return NgxAppkitContractsAlphaModule;
     }());
+    /*@__PURE__*/ (function () { core.ɵsetClassMetadata(NgxAppkitContractsAlphaModule, [{
+            type: core.NgModule,
+            args: [{
+                    declarations: [],
+                    imports: [],
+                    exports: [],
+                    providers: [
+                        Utilities,
+                        DBkeys
+                    ]
+                }]
+        }], null, null); })();
 
     exports.AlertCommand = AlertCommand;
     exports.AlertDialog = AlertDialog;
@@ -2002,9 +953,7 @@
     exports.ConfigurationServiceAbstractProvider = ConfigurationServiceAbstractProvider;
     exports.ConfigurationServiceConstants = ConfigurationServiceConstants;
     exports.DBkeys = DBkeys;
-    exports.DialogType = DialogType;
     exports.LocalStoreManagerServiceAbstractProvider = LocalStoreManagerServiceAbstractProvider;
-    exports.MessageSeverity = MessageSeverity;
     exports.NgxAppkitContractsAlphaModule = NgxAppkitContractsAlphaModule;
     exports.ServiceProviderBase = ServiceProviderBase;
     exports.StorageManagerConstants = StorageManagerConstants;

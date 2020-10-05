@@ -1,3 +1,4 @@
+import * as i0 from "@angular/core";
 export declare class DBkeys {
     static readonly CURRENT_USER = "current_user";
     static readonly USER_PERMISSIONS = "user_permissions";
@@ -12,4 +13,6 @@ export declare class DBkeys {
     static readonly SHOW_DASHBOARD_NOTIFICATIONS = "show_dashboard_notifications";
     static readonly SHOW_DASHBOARD_TODO = "show_dashboard_todo";
     static readonly SHOW_DASHBOARD_BANNER = "show_dashboard_banner";
+    static ɵfac: i0.ɵɵFactoryDef<DBkeys, never>;
+    static ɵprov: i0.ɵɵInjectableDef<DBkeys>;
 }
