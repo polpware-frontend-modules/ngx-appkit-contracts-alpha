@@ -50,16 +50,12 @@ class StorageManagerConstants {
 }
 StorageManagerConstants.DBKEY_USER_DATA = 'user_data';
 
-// =============================
-// Email: info@ebenmonney.com
-// www.ebenmonney.com/templates
-// =============================
 class ConfigurationServiceConstants {
 }
 ConfigurationServiceConstants.appVersion = '3.1.0';
 // ***Specify default configurations here***
 ConfigurationServiceConstants.defaultLanguage = 'en';
-ConfigurationServiceConstants.defaultHomeUrl = '/';
+ConfigurationServiceConstants.defaultHomeUrl = '/home';
 ConfigurationServiceConstants.defaultThemeId = 1;
 ConfigurationServiceConstants.defaultShowDashboardStatistics = true;
 ConfigurationServiceConstants.defaultShowDashboardNotifications = true;
@@ -82,13 +78,14 @@ DBkeys.SHOW_DASHBOARD_NOTIFICATIONS = 'show_dashboard_notifications';
 DBkeys.SHOW_DASHBOARD_TODO = 'show_dashboard_todo';
 DBkeys.SHOW_DASHBOARD_BANNER = 'show_dashboard_banner';
 /** @nocollapse */ DBkeys.ɵfac = function DBkeys_Factory(t) { return new (t || DBkeys)(); };
-/** @nocollapse */ DBkeys.ɵprov = ɵɵdefineInjectable({ token: DBkeys, factory: DBkeys.ɵfac });
+/** @nocollapse */ DBkeys.ɵprov = ɵɵdefineInjectable({ token: DBkeys, factory: DBkeys.ɵfac, providedIn: 'root' });
 /*@__PURE__*/ (function () { ɵsetClassMetadata(DBkeys, [{
-        type: Injectable
+        type: Injectable,
+        args: [{
+                providedIn: 'root'
+            }]
     }], null, null); })();
 
-// Supress angular complication error
-// @dynamic
 class Utilities {
     static getHttpResponseMessages(data) {
         const responses = [];
@@ -575,9 +572,12 @@ Utilities.cookies = {
     }
 };
 /** @nocollapse */ Utilities.ɵfac = function Utilities_Factory(t) { return new (t || Utilities)(); };
-/** @nocollapse */ Utilities.ɵprov = ɵɵdefineInjectable({ token: Utilities, factory: Utilities.ɵfac });
+/** @nocollapse */ Utilities.ɵprov = ɵɵdefineInjectable({ token: Utilities, factory: Utilities.ɵfac, providedIn: 'root' });
 /*@__PURE__*/ (function () { ɵsetClassMetadata(Utilities, [{
-        type: Injectable
+        type: Injectable,
+        args: [{
+                providedIn: 'root'
+            }]
     }], null, null); })();
 
 // This file can be replaced during build by using the `fileReplacements` array.
@@ -641,20 +641,14 @@ const ɵThemeManagerAbstractProvider_BaseFactory = ɵɵgetInheritedFactory(Theme
 class NgxAppkitContractsAlphaModule {
 }
 /** @nocollapse */ NgxAppkitContractsAlphaModule.ɵmod = ɵɵdefineNgModule({ type: NgxAppkitContractsAlphaModule });
-/** @nocollapse */ NgxAppkitContractsAlphaModule.ɵinj = ɵɵdefineInjector({ factory: function NgxAppkitContractsAlphaModule_Factory(t) { return new (t || NgxAppkitContractsAlphaModule)(); }, providers: [
-        Utilities,
-        DBkeys
-    ], imports: [[]] });
+/** @nocollapse */ NgxAppkitContractsAlphaModule.ɵinj = ɵɵdefineInjector({ factory: function NgxAppkitContractsAlphaModule_Factory(t) { return new (t || NgxAppkitContractsAlphaModule)(); }, providers: [], imports: [[]] });
 /*@__PURE__*/ (function () { ɵsetClassMetadata(NgxAppkitContractsAlphaModule, [{
         type: NgModule,
         args: [{
                 declarations: [],
                 imports: [],
                 exports: [],
-                providers: [
-                    Utilities,
-                    DBkeys
-                ]
+                providers: []
             }]
     }], null, null); })();
 

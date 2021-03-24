@@ -256,17 +256,13 @@
         return StorageManagerConstants;
     }());
 
-    // =============================
-    // Email: info@ebenmonney.com
-    // www.ebenmonney.com/templates
-    // =============================
     var ConfigurationServiceConstants = /** @class */ (function () {
         function ConfigurationServiceConstants() {
         }
         ConfigurationServiceConstants.appVersion = '3.1.0';
         // ***Specify default configurations here***
         ConfigurationServiceConstants.defaultLanguage = 'en';
-        ConfigurationServiceConstants.defaultHomeUrl = '/';
+        ConfigurationServiceConstants.defaultHomeUrl = '/home';
         ConfigurationServiceConstants.defaultThemeId = 1;
         ConfigurationServiceConstants.defaultShowDashboardStatistics = true;
         ConfigurationServiceConstants.defaultShowDashboardNotifications = true;
@@ -292,15 +288,16 @@
         DBkeys.SHOW_DASHBOARD_TODO = 'show_dashboard_todo';
         DBkeys.SHOW_DASHBOARD_BANNER = 'show_dashboard_banner';
         /** @nocollapse */ DBkeys.ɵfac = function DBkeys_Factory(t) { return new (t || DBkeys)(); };
-        /** @nocollapse */ DBkeys.ɵprov = core.ɵɵdefineInjectable({ token: DBkeys, factory: DBkeys.ɵfac });
+        /** @nocollapse */ DBkeys.ɵprov = core.ɵɵdefineInjectable({ token: DBkeys, factory: DBkeys.ɵfac, providedIn: 'root' });
         return DBkeys;
     }());
     /*@__PURE__*/ (function () { core.ɵsetClassMetadata(DBkeys, [{
-            type: core.Injectable
+            type: core.Injectable,
+            args: [{
+                    providedIn: 'root'
+                }]
         }], null, null); })();
 
-    // Supress angular complication error
-    // @dynamic
     var Utilities = /** @class */ (function () {
         function Utilities() {
         }
@@ -830,11 +827,14 @@
             }
         };
         /** @nocollapse */ Utilities.ɵfac = function Utilities_Factory(t) { return new (t || Utilities)(); };
-        /** @nocollapse */ Utilities.ɵprov = core.ɵɵdefineInjectable({ token: Utilities, factory: Utilities.ɵfac });
+        /** @nocollapse */ Utilities.ɵprov = core.ɵɵdefineInjectable({ token: Utilities, factory: Utilities.ɵfac, providedIn: 'root' });
         return Utilities;
     }());
     /*@__PURE__*/ (function () { core.ɵsetClassMetadata(Utilities, [{
-            type: core.Injectable
+            type: core.Injectable,
+            args: [{
+                    providedIn: 'root'
+                }]
         }], null, null); })();
 
     // This file can be replaced during build by using the `fileReplacements` array.
@@ -927,10 +927,7 @@
         function NgxAppkitContractsAlphaModule() {
         }
         /** @nocollapse */ NgxAppkitContractsAlphaModule.ɵmod = core.ɵɵdefineNgModule({ type: NgxAppkitContractsAlphaModule });
-        /** @nocollapse */ NgxAppkitContractsAlphaModule.ɵinj = core.ɵɵdefineInjector({ factory: function NgxAppkitContractsAlphaModule_Factory(t) { return new (t || NgxAppkitContractsAlphaModule)(); }, providers: [
-                Utilities,
-                DBkeys
-            ], imports: [[]] });
+        /** @nocollapse */ NgxAppkitContractsAlphaModule.ɵinj = core.ɵɵdefineInjector({ factory: function NgxAppkitContractsAlphaModule_Factory(t) { return new (t || NgxAppkitContractsAlphaModule)(); }, providers: [], imports: [[]] });
         return NgxAppkitContractsAlphaModule;
     }());
     /*@__PURE__*/ (function () { core.ɵsetClassMetadata(NgxAppkitContractsAlphaModule, [{
@@ -939,10 +936,7 @@
                     declarations: [],
                     imports: [],
                     exports: [],
-                    providers: [
-                        Utilities,
-                        DBkeys
-                    ]
+                    providers: []
                 }]
         }], null, null); })();
 

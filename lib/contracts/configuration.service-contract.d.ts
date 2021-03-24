@@ -25,12 +25,12 @@ export interface IConfigurationServiceContract {
     clearLocalChanges(): any;
 }
 export declare class ConfigurationServiceConstants {
-    static readonly appVersion: string;
-    static readonly defaultLanguage: string;
-    static readonly defaultHomeUrl: string;
-    static readonly defaultThemeId: number;
-    static readonly defaultShowDashboardStatistics: boolean;
-    static readonly defaultShowDashboardNotifications: boolean;
-    static readonly defaultShowDashboardTodo: boolean;
-    static readonly defaultShowDashboardBanner: boolean;
+    static appVersion: string;
+    static defaultLanguage: string;
+    static defaultHomeUrl: string;
+    static defaultThemeId: number;
+    static defaultShowDashboardStatistics: boolean;
+    static defaultShowDashboardNotifications: boolean;
+    static defaultShowDashboardTodo: boolean;
+    static defaultShowDashboardBanner: boolean;
 }
